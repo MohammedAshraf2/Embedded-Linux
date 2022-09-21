@@ -1,4 +1,5 @@
 .PHONY: Clean
+.PHONY: Uninstall
 STATICLINK=NO
 
 
@@ -19,4 +20,14 @@ main.o : main.c StrCpy.h ./Library/Extentions.h
 
 Clean :
 	rm -f *.o
+
+install: Femto
+	cp Femto /usr/bin
+	chmod a+x /usr/bin/Femto
+	chmod og-w /usr/bin/Femto
+	echo " Femto Instalation done"
+
+Uninstall:
+	rm -f /usr/bin/Femto
+	echo "Femto Was Uninstalled"
 

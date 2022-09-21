@@ -6,6 +6,19 @@
 *******************************************
 */
 
+******************************************
+
+Static library : libsayaad.a
+Dynamic library: libsayaad.so
+
+To create Static as Dynamic is the only provided in this file
+simply go to the makefile and change macro STATICLINK=NO To YES
+or simply in bash make STATICLINKING=YES
+also in Library folder change makefile macro
+ISSTATIC=NO TO yes.
+
+******************************************
+
 The commands used are:
 
 vim							(to create file)
