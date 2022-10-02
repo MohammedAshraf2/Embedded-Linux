@@ -1,0 +1,27 @@
+/* 
+ * File:      Readme.txt
+ * Author:    Elsayaad
+ * Linked In: https://www.linkedin.com/in/mohamed-elsayaad2112/
+ * Git Hub:   https://github.com/MohammedAshraf2
+ * Created on Octobar 2, 2022, 2:30 PM
+ */
+
+ 
+This is simple pwd utility program, Which can be run throw ./Name of elf file.
+*******************
+Commands are:
+
+gcc -o Pwd  Pwd.c
+
+******************
+
+Example of output:
+
+./Pwd 
+/home/engmohammedelsayaad/FemtoUnix/pwd_utility
+
+******************
+
+
+
+
